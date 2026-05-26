@@ -1,0 +1,11 @@
+externalId: Job ICAPI Assets Automated
+sourceId: Ice Cream Factory API
+destinationId: Sink ICAPI Assets
+format:
+  type: custom
+  encoding: utf8
+  mappingId: ICAPI Assets
+config:
+  interval: 1d
+  path: /site/all/csv
+  method: get
